@@ -1,0 +1,51 @@
+/* override.css – Cyan-Blue Theme Override */
+
+:root {
+  /* Replace main accent colors */
+  --orange-yellow-crayola: #00ffd1;
+  --vegas-gold: #009dff;
+
+  --text-gradient-yellow: linear-gradient(to right, #00ffd1, #009dff);
+  --bg-gradient-yellow-1: linear-gradient(to bottom right, #00ffd1 0%, #009dff 100%);
+  --bg-gradient-yellow-2: linear-gradient(135deg, rgba(0, 255, 209, 0.25) 0%, rgba(0, 157, 255, 0) 60%), hsl(210, 15%, 10%);
+}
+
+/* Navbar & links */
+.navbar-link.active,
+.navbar-link:hover {
+  color: var(--orange-yellow-crayola) !important;
+}
+
+/* Buttons */
+.form-btn {
+  background: var(--bg-gradient-yellow-1) !important;
+  color: white !important;
+}
+.form-btn::before {
+  background: var() !important;
+}
+
+/* Scrollbar */
+.has-scrollbar::-webkit-scrollbar-thumb {
+  background: var(--orange-yellow-crayola) !important;
+}
+
+/* Project hover icons */
+.project-item-icon-box {
+  color: var(--orange-yellow-crayola) !important;
+}
+
+/* Timeline dots */
+.timeline-item::after {
+  background: var(--text-gradient-yellow) !important;
+}
+
+/* Skill bars */
+.skill-progress-fill {
+  background: var(--text-gradient-yellow) !important;
+}
+
+/* Blog hover */
+.blog-post-item > a:hover .blog-item-title {
+  color: var(--orange-yellow-crayola) !important;
+}

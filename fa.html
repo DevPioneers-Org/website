@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="fa" style="font-family: Doran;">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevPioneers</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/override.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info" >
+
+        <figure class="avatar-box" style="
+    border-radius: 50%;">
+          <img src="./assets/images/my-avatar.png" alt="DevPioneers" width="80" style="
+    border-radius: 50%;">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="DevPioneers">DevPioneers</h1>
+
+          <p class="title" style="font-size: larger;">آنالیز و تحلیل داده</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>راه ارتباطی</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info" >
+              <p class="contact-title" style="font-size: larger;" >ایمیل</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">devpioneers.org@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title" style="font-size: larger;">تلفن</p>
+              <a href="+989120170437" class="contact-link">+98 912 0170 437 </a>
+              <a href="+989356263254" class="contact-link">+98 935 6263 254</a>
+            </div>
+
+          </li>
+
+         
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title" style="font-size: larger;">آدرس</p>
+
+              <address >البرز، کرج</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/ali-h-7b62702b4/" class="social-link" target=”_blank” >
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/amirreza-ghiasvand-8a1b22379/" class="social-link" target=”_blank” >
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.github.com/devpioneers-org/" class="social-link" target=”_blank” >
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link >درباره ما</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link >رزومه</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link >پروژه ها</button>
+          </li>
+          
+          <li class="navbar-item">
+            <a href="index.html"><button class="navbar-link" data-nav-link >فا/ان</button></a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">ما کی هستیم؟</h2>
+        </header>
+
+        <section class="about-text" style="font-size: large;">
+          <p dir="rtl">
+            ما یک تیم پرانرژی و عاشق علم داده‌ایم که داده‌های خام رو به داستان‌هایی تبدیل می‌کنیم که به رشد کسب‌وکار کمک می‌کنن.
+          </p>
+          <p dir="rtl">علی حسینی با تخصص توی SQL، Power BI، SSIS، SSAS و اکسل، استاد ساخت پایپ‌لاین‌های داده و طراحی داشبوردهای تعاملیه که تصمیم‌گیری رو ساده‌تر می‌کنه.
+          </p>
+            
+          <p dir="rtl">امیررضا غیاثوند با مهارت در پایتون، یادگیری ماشین و یادگیری عمیق، مدل‌های هوش مصنوعی رو طراحی و آموزش می‌ده تا مشکلات واقعی رو حل کنه.
+          </p>
+            
+
+          
+
+          <p dir="rtl">
+            ما کنار هم پروژه‌های علم داده رو از صفر تا صد پیش می‌بریم — از جمع‌آوری و تمیز کردن داده گرفته تا ساخت مدل‌های پیش‌بینی و تحویل داشبوردهای قدرتمند که دید عمیقی به کسب‌وکارتون می‌ده.
+          </p>
+          <h4 dir="rtl">ماموریتمون ساده‌ست: کمک کنیم بیشترین ارزش رو از داده‌هاتون بیرون بکشید و تصمیم‌های هوشمندانه‌تری بگیرید.
+          </h4>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title" dir="rtl" style="font-size: 30px; text-align: center;">نحوه کار ما :</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title2" style="font-size: x-large; text-align: right;">جمع‌آوری و آماده سازی داده</h4>
+
+                <p class="service-item-text" dir="rtl" style="font-size: larger; text-align: right;">
+                     داده‌ها رو از منابع مختلف مثل دیتابیس‌ها، APIها و فایل‌ها جمع‌آوری می‌کنیم و با حذف مقادیر گمشده، پاک‌سازی داده‌های تکراری و تبدیلشون به فرمت ساختاریافته، تمیز و آماده تحلیلشون می‌کنیم. این مرحله تضمین می‌کنه داده‌های ما دقیق، قابل اعتماد و آماده‌ی استفاده برای تحلیل باشن.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title2" style="font-size: x-large; text-align: right;">تحلیل اکتشافی داده‌ها</h4>
+
+                <p class="service-item-text" style="font-size: larger; text-align: right;" dir="rtl">
+                   داده‌ها رو بررسی می‌کنیم تا الگوها، روندها و روابط مهمشون رو پیدا کنیم. با کمک ابزارهایی مثل Power BI، Excel و کتابخانه‌های تصویری‌سازی Python، بینش‌های کلیدی داده‌ها رو کشف می‌کنیم و مشخص می‌کنیم کدوم ویژگی‌ها برای ساخت مدل‌های دقیق و کاربردی به درد می‌خورن.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title2" style="font-size: x-large; text-align: right;">توسعه و آموزش مدل‌ ها</h4>
+
+                <p class="service-item-text" style="font-size: larger; text-align: right;" dir="rtl">  
+                   مدل‌های یادگیری ماشین و یادگیری عمیق رو طراحی و آموزش می‌دیم، دقیقاً متناسب با مسئله‌ای که داریم. این شامل رگرسیون‌ها، خوشه‌بندی‌ها، پیش‌بینی‌ها و غیره می‌شه.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title2" style="font-size: x-large; text-align: right;" >مصورسازی و ارائه نتایج</h4>
+
+                <p class="service-item-text" style="font-size: larger; text-align: right;" dir="rtl" >
+                   نتایج رو با استفاده از داشبوردها و گزارش‌ها با ابزارهایی مثل Power BI نمایش می‌دیم، تا بینش‌ها برای تصمیم‌گیرنده‌ها قابل استفاده و عملی باشه.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title" dir="rtl" style="font-size: 30px; text-align: center;">مهارت ها</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="https://fa.wikipedia.org/wiki/%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86_(%D8%B2%D8%A8%D8%A7%D9%86_%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%86%D9%88%DB%8C%D8%B3%DB%8C)" target=”_blank”>
+                <img src="./assets/images/logo-1-color.svg" alt="Python logo">
+                
+              </a>
+              
+            </li>
+
+            <li class="clients-item">
+              <a href="https://fa.wikipedia.org/wiki/%D8%A7%D8%B3%E2%80%8C%DA%A9%DB%8C%D9%88%D8%A7%D9%84" target=”_blank”>
+                <img src="./assets/images/logo-2-color.svg" alt="SQL logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://daneshkar.net/blog/excel-inbi/" target=”_blank”>
+                <img src="./assets/images/logo-3-color.svg" alt="Excel logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://fa.wikipedia.org/wiki/%DB%8C%D8%A7%D8%AF%DA%AF%DB%8C%D8%B1%DB%8C_%D9%85%D8%A7%D8%B4%DB%8C%D9%86" target=”_blank”>
+                <img src="./assets/images/logo-4-color.svg" alt="AI logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://fa.wikipedia.org/wiki/%D9%BE%D8%A7%D9%88%D8%B1_%D8%A8%DB%8C%E2%80%8C%D8%A2%DB%8C"  target=”_blank”>
+                <img src="./assets/images/logo-5-color.svg" alt="BI logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://fa.wikipedia.org/wiki/%D8%AA%D8%B5%D9%85%DB%8C%D9%85%E2%80%8C%DA%AF%DB%8C%D8%B1%DB%8C_%D8%AF%D8%A7%D8%AF%D9%87%E2%80%8C%D9%85%D8%AD%D9%88%D8%B1" target=”_blank”>
+                <img src="./assets/images/logo-6-color.svg" alt="Marketing logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume" style="text-align: right;" dir="rtl">
+
+        <header>
+          <h2 class="h2 article-title" style="text-align: left;">رزومه</h2>
+        </header>
+
+        <section class="timeline" >
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">تحصیلات</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title" style="text-align: right;" dir="rtl">دبیرستان استعداد های درخشان شهید سلطانی 4</h4>
+
+              <span style="text-align: right;" dir="rtl">2022 — 2025</span>
+
+              <p class="timeline-text" style="text-align: right;" dir="rtl">
+                ما فارغ‌التحصیل‌های سازمان ملی پرورش استعدادهای درخشان (سمپاد) هستیم؛ مدرسه‌ای تخصصی برای دانش‌آموزان با استعداد برتر در ایران. تحصیل در رشته ریاضی و فیزیک به ما دید عمیق‌تری نسبت به تحلیل داده و حل مسئله داده و پایه علمی قوی تیممون رو ساخته.
+              </p>
+
+            </li>
+
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">دانشگاه آزاد اسلامی واحد کرج</h4>
+
+              <span>2025 — الان</span>
+
+              <p class="timeline-text">
+                ما الان هر دو دانشجوی علوم کامپیوتر هستیم و توی مسیر یادگیری و رشد، با کار روی پروژه‌های مختلف تجربه جمع می‌کنیم و مهارتمون رو بالا می‌بریم.
+              </p>
+
+            </li>
+
+            
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">سابقه کار</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">مهندس یادگیری ماشین و دانشمند داده</h4>
+
+              <span>2022 — 2023</span>
+
+              <p class="timeline-text">
+                چندین پروژه یادگیری ماشین و یادگیری عمیق رو به عنوان کارآموز در IMT انجام دادیم و با دقت روی به‌کارگیری روش‌های تحلیلی پیشرفته روی موضوعات متنوع و داده‌های واقعی کار کردیم. این تجربه عملی باعث شد مهارت‌های فنی و حل مسئله‌مون قوی‌تر بشه و آماده باشیم تا توی پروژه‌های واقعی موثر عمل کنیم و همچنان تخصصمون رو گسترش بدیم.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">فریلنسر</h4>
+
+              <span>2023 — 2025</span>
+
+              <p class="timeline-text">
+                چندین پروژه تحلیل داده رو به صورت فریلنس از طریق پلتفرم‌های آنلاین ایرانی انجام دادیم و تجربه عملی تو حوزه‌های مختلف مثل تحلیل کسب‌وکار، گزارش‌گیری و تصویری‌سازی به دست آوردیم. این پروژه‌ها هرچند تمام‌وقت نبودن، ولی فرصت ارزشمندی بودن تا مهارت‌هامون رو تو Microsoft Power BI، SQL (T-SQL)، یادگیری ماشین و تحلیل آماری تقویت کنیم و نتایج قابل‌اقدام برای مشتری‌ها ارائه بدیم.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">بنیان‌گذاران DevPioneers</h4>
+
+              <span>2025 — الان</span>
+
+              <p class="timeline-text">
+                بنیان‌گذاران یک شرکت داده‌محور هستیم و تجربه موفق همکاری در پروژه‌های تحلیلی و اجرایی متعددی رو داریم. تخصص‌هامون در یادگیری ماشین، علم داده و هوش تجاری رو کنار هم گذاشتیم تا راهکارهای کامل و کاربردی ارائه بدیم — از جمع‌آوری و پاک‌سازی داده گرفته تا توسعه مدل، تصویری‌سازی و پیاده‌سازی نهایی. کار ما به کسب‌وکارها کمک کرده داده‌های خامشون رو به بینش‌های ارزشمند تبدیل کنن و تصمیم‌های هوشمندانه‌تر بگیرن.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">پروژه‌ها</h2>
+        </header>
+
+        <section class="projects" style="text-align: right;" dir="rtl">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>همه</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>پروژه کامل</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>یادگیری ماشین</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>مصورسازی</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>فیلتر</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>همه</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>پروژه کامل</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>یادگیری ماشین</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>مصورسازی</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="پروژه کامل">
+              <a href="https://github.com/DevPioneers-Org/Projects/tree/main/SuperStore" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="Superstore" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">فروشگاه</h3>
+                
+                <p class="project-category">پروژه کامل</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="یادگیری ماشین">
+              <a href="https://github.com/DevPioneers-Org/Projects/tree/main/BankLoan" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="Bank Loan" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">دسته بندی وام بانکی</h3>
+
+                <p class="project-category">یادگیری ماشین</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="پروژه کامل">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">تست1</h3>
+
+                <p class="project-category">پروژه کامل</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="یادگیری ماشین">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">تست2</h3>
+
+                <p class="project-category">یادگیری ماشین</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="پروژه کامل">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">تست3</h3>
+
+                <p class="project-category">پروژه کامل</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="پروژه کامل">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">تست4</h3>
+
+                <p class="project-category">پروژه کامل</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="مصورسازی">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">تست5</h3>
+
+                <p class="project-category">مصورسازی</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="یادگیری ماشین">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">تست6</h3>
+
+                <p class="project-category">یادگیری ماشین</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="مصورسازی">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">تست7</h3>
+
+                <p class="project-category">مصورسازی</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
